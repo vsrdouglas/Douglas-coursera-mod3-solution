@@ -1,0 +1,106 @@
+body {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Lora', serif;
+    background-color: #ffffff;
+
+    
+}
+
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 1px;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color:  #07121c;
+    font-size: 1.7em;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-bottom: 20px;
+}
+h2{
+    font-family: 'Lora', serif;
+    color:  #07121c;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #000000;
+    text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -33px;
+}
+
+
+#nav-list li p {
+    background: #ffffff;
+    border: 2px solid black;
+    color: #000a2f;
+
+}
+
+
+
+#home-tiles .item-text {
+    background: #999999;
+    padding: 50px;
+}
+
+#home-tiles .item-text p {
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 10px;
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-brand h1 { 
+        padding-top: 10px;
+        font-size: 4vw; 
+    }
+
+    #collapsable-nav a { 
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span { 
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    .menu-item-description {
+        text-align: center;
+    }
+
+}
